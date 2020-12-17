@@ -1,6 +1,9 @@
-#include <iostream>
+#include <Window.h>
+#include "Board.h"
+using namespace Graph_lib;
 
 int main()
 {
-    std::cout << "Hello World!" << std::endl;
+    Checkerboard board{ board_size };
+    return gui_main();
 }
